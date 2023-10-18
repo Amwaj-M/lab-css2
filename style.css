@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.nav{
+    position: sticky;
+    width: 100vw;
+    overflow: hidden;
+    background-color: black;
+}
+
+li{
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.header{
+    display: block;
+    background-color: rgb(215, 215, 215);
+    width: 100vw;
+    height: 50vh;
+    position: relative;
+}
+h2{
+    padding-top: 10%;
+    text-align: right;
+    padding-right: 5%;
+    margin-right: 5%;
+}
+P{
+    text-align: right;
+    margin-left: 70%;
+    margin-right: 5%;
+    text-align: justify;
+
+}
+
+.img1{
+        border: black solid 1px;
+        width: 20%;
+        height: 40%;
+        left: 20px;
+        bottom: 35%;
+        position: absolute;
+    
+}
+.img2{
+
+        border: black solid 1px;
+        width: 20%;
+        height: 40%;
+        left: 10%;
+        bottom:10%;
+        right: 10px;
+       position: absolute;
+}
+
+
+
+.content{
+    background-color: white;
+    width: 100vw;
+    height: 50vh;
+    position: relative;
+}
+.box1{
+        width: 100px;
+        height: 100px;
+        top: 10px;
+        left: 5%;
+        border: solid black;
+        background-color: #744e15;
+        border-radius: 5%;
+        position: relative;
+}
+.box2{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    left: 12%;
+    top:30%;
+    border: solid black;
+    background-color: #f59518;
+    border-radius: 5%;
+}
+.box3{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    left: 17%;
+    top:58%;
+    border: solid black;
+    background-color: #e0b47a;
+    border-radius: 5%;
+}
+.box4{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    left: 22%;
+    top:30%;
+    border: solid black;
+    background-color: #e7890f;
+    border-radius: 5%;
+}
+.box5{
+    width: 100px;
+    height: 100px;
+    left: 29%;
+    top: 3%;
+    border: solid black;
+    background-color: #744e15;
+    border-radius: 5%;
+    position: absolute;
+}
+
+.div-box2{
+position: absolute;
+top: -1%;
+left: 800px;
+height: 100%;
+width: 100%;
+}
+
+.fotter{
+    background-color: black;
+    width: 100vw;
+    height: 10vh;
+    text-align: center;
+    color: white;
+}
